@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+html{
+    font-family: 'Heebo', sans-serif;
+}
+.navbar ul{
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+     
+}
+.navbar ul li h4{
+   font-weight: 800;
+   padding: 24px;
+   font: bold;
+
+
+}
+.navbar ul li h4 a:hover {
+   color: #ff6464;
+   transition: 0.2s;
+}
+.main-heading{
+    padding: 40px;
+    padding-left: 70px;
+}
+.main-heading a:hover{
+    color: #ff6464;
+    transition: 0.2s;
+
+}
+.paragraph-a .top-text,.paragraph-b .top-text,.paragraph-c .top-text,.paragraph-d .top-text{
+ padding: 12px;
+ padding-left: 24px;
+}
+.top-text a:hover{
+    color: #ff6464;
+    transition: 0.2s;
+}
+.paragraph-a,.paragraph-b,.paragraph-c,.paragraph-d{
+    padding-left: 40px;
+}
+.paragraph-a .middle-text,.paragraph-b .middle-text,.paragraph-c .middle-text,.paragraph-d .middle-text{
+    padding: 12px;
+}
+.paragraph-a .bottom-text,.paragraph-b .bottom-text,.paragraph-c .bottom-text,.paragraph-d .bottom-text{
+    padding: 12px;
+}
+.paragraph-a .bottom-text p,.paragraph-b .bottom-text p,.paragraph-c .bottom-text p,.paragraph-d .bottom-text p{
+    padding-left: 16px;
+}
+.paragraph-a .middle-text span,.paragraph-b .middle-text span,.paragraph-c .middle-text span,.paragraph-d .middle-text span{
+    padding: 12px;
+}
+
+.paragraph-a .middle-text .transparent-text,.paragraph-b .middle-text .transparent-text,.paragraph-c .middle-text .transparent-text,.paragraph-d .middle-text .transparent-text{
+    color: rgb(140, 131, 131);
+}
+.line-container{
+    margin-top: 20px;
+    width: 800px;
+    padding: 1px;
+    background-color: rgb(183, 171, 171);
+}
+.links-collector{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+ }
+ .fb img,.twitter img,.insta img,.linkdin img{
+    padding-left: 18px;
+    
+
+    width: 30px;
+    
+}
+.ending-text p{
+    font: bold;
+    font-size: small;
+    text-align: center;
+   
+   
+    
+}
+.ending-text{
+    justify-content: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .paragraph-a,.paragraph-b,.paragraph-c,.paragraph-d{
+        text-align: left;
+    }
+    .main-heading h2{
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
